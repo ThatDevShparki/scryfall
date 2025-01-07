@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scryfall"
+version = "0.1.0"
+description = "Python SDK for Scryfall"
+authors = ["ThatDevShparki <shparki@thatdev.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "scryfall", from = "./src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
